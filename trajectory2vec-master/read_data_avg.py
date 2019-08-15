@@ -2,7 +2,7 @@ import cPickle
 import h5py
 import numpy as np
 
-##将按一个被测试者的不同Trial平均后最大通道和能量信息读取成轨迹信息，参数为指定的频率段、condition和被测试人
+#将按一个被测试者的不同Trial平均后最大通道和能量信息读取成轨迹信息，参数为指定的频率段、condition和被测试人
 def read_data_chan(band='alpha',con=1):
     bandsMax = h5py.File('../Channels_mean_max_psd.mat', 'r')
     labels_chan = []
