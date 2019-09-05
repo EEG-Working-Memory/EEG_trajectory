@@ -129,4 +129,4 @@ for i in range(20):
             highgamma[0,k,j,1,i]=bandMax
             highgamma[1,k,j,1,i]=maxCh
             
-#hdf5storage.savemat('..\Channels_5avg_max_psd.mat', {'theta':theta, 'alpha':alpha, 'lowbeta':lowbeta, 'highbeta':highbeta, 'lowgamma':lowgamma,'highgamma':highgamma})
+hdf5storage.savemat('..\Channels_5avg_max_psd.mat', {'theta':theta, 'alpha':alpha, 'lowbeta':lowbeta, 'highbeta':highbeta, 'lowgamma':lowgamma,'highgamma':highgamma})
